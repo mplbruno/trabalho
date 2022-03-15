@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Apicursos</name>
+    </assembly>
+    <members>
+        <member name="M:Apicursos.Controllers.AuthenticationController.PostCourses(Apicursos.Models.Users)">
+             <summary>
+             Prencher o Type conforme o nível de aotorização:
+             1 - Gerente
+             2 - Secretária 
+             3 - Demais Usuários
+             </summary>
+             <remarks>
+             Exemplo:
+            
+                
+                 {
+                    "type": int,
+                    "name": "string",
+                    "email": "email@.com"
+                    "passoword": "string"
+                    "cpf": "string"
+                 }
+            
+             </remarks>
+             
+             
+             
+             
+        </member>
+        <member name="M:Apicursos.Controllers.CoursesController.PostCourses(Apicursos.Models.Courses)">
+             <summary>
+             Prencher o Status conforme  situação:
+             1 - Previsto
+             2 - Em Andamento  
+             3 - Concluído
+             </summary>
+             <remarks>
+             Exemplo:
+            
+                
+                 {
+                    "title": "string",
+                    "duration": "string",
+                    "status": int
+                 }
+            
+             </remarks>
+             
+             
+             
+             
+        </member>
+    </members>
+</doc>
